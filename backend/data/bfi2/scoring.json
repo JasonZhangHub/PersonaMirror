@@ -1,0 +1,398 @@
+{
+    "description": "BFI-2 Scoring Guide - Calculates domain and facet scores from raw responses",
+    "version": "2.0",
+    "responseScale": {
+        "min": 1,
+        "max": 5,
+        "labels": {
+            "1": "Disagree strongly",
+            "2": "Disagree a little",
+            "3": "Neutral; no opinion",
+            "4": "Agree a little",
+            "5": "Agree strongly"
+        }
+    },
+    "reverseScoring": {
+        "description": "For reverse-scored items, transform the response: newScore = 6 - originalScore",
+        "formula": "6 - response"
+    },
+    "domains": {
+        "Extraversion": {
+            "code": "E",
+            "items": [
+                1,
+                6,
+                11,
+                16,
+                21,
+                26,
+                31,
+                36,
+                41,
+                46,
+                51,
+                56
+            ],
+            "reverseItems": [
+                11,
+                16,
+                26,
+                31,
+                36,
+                51
+            ],
+            "facets": {
+                "Sociability": {
+                    "items": [
+                        1,
+                        16,
+                        31,
+                        46
+                    ],
+                    "reverseItems": [
+                        16,
+                        31
+                    ]
+                },
+                "Assertiveness": {
+                    "items": [
+                        6,
+                        21,
+                        36,
+                        51
+                    ],
+                    "reverseItems": [
+                        36,
+                        51
+                    ]
+                },
+                "Energy Level": {
+                    "items": [
+                        11,
+                        26,
+                        41,
+                        56
+                    ],
+                    "reverseItems": [
+                        11,
+                        26
+                    ]
+                }
+            }
+        },
+        "Agreeableness": {
+            "code": "A",
+            "items": [
+                2,
+                7,
+                12,
+                17,
+                22,
+                27,
+                32,
+                37,
+                42,
+                47,
+                52,
+                57
+            ],
+            "reverseItems": [
+                12,
+                17,
+                22,
+                37,
+                42,
+                47
+            ],
+            "facets": {
+                "Compassion": {
+                    "items": [
+                        2,
+                        17,
+                        32,
+                        47
+                    ],
+                    "reverseItems": [
+                        17,
+                        47
+                    ]
+                },
+                "Respectfulness": {
+                    "items": [
+                        7,
+                        22,
+                        37,
+                        52
+                    ],
+                    "reverseItems": [
+                        22,
+                        37
+                    ]
+                },
+                "Trust": {
+                    "items": [
+                        12,
+                        27,
+                        42,
+                        57
+                    ],
+                    "reverseItems": [
+                        12,
+                        42
+                    ]
+                }
+            }
+        },
+        "Conscientiousness": {
+            "code": "C",
+            "items": [
+                3,
+                8,
+                13,
+                18,
+                23,
+                28,
+                33,
+                38,
+                43,
+                48,
+                53,
+                58
+            ],
+            "reverseItems": [
+                3,
+                8,
+                23,
+                28,
+                48,
+                58
+            ],
+            "facets": {
+                "Organization": {
+                    "items": [
+                        3,
+                        18,
+                        33,
+                        48
+                    ],
+                    "reverseItems": [
+                        3,
+                        48
+                    ]
+                },
+                "Productiveness": {
+                    "items": [
+                        8,
+                        23,
+                        38,
+                        53
+                    ],
+                    "reverseItems": [
+                        8,
+                        23
+                    ]
+                },
+                "Responsibility": {
+                    "items": [
+                        13,
+                        28,
+                        43,
+                        58
+                    ],
+                    "reverseItems": [
+                        28,
+                        58
+                    ]
+                }
+            }
+        },
+        "Neuroticism": {
+            "code": "N",
+            "items": [
+                4,
+                9,
+                14,
+                19,
+                24,
+                29,
+                34,
+                39,
+                44,
+                49,
+                54,
+                59
+            ],
+            "reverseItems": [
+                4,
+                9,
+                24,
+                29,
+                44,
+                49
+            ],
+            "facets": {
+                "Anxiety": {
+                    "items": [
+                        4,
+                        19,
+                        34,
+                        49
+                    ],
+                    "reverseItems": [
+                        4,
+                        49
+                    ]
+                },
+                "Depression": {
+                    "items": [
+                        9,
+                        24,
+                        39,
+                        54
+                    ],
+                    "reverseItems": [
+                        9,
+                        24
+                    ]
+                },
+                "Emotional Volatility": {
+                    "items": [
+                        14,
+                        29,
+                        44,
+                        59
+                    ],
+                    "reverseItems": [
+                        29,
+                        44
+                    ]
+                }
+            }
+        },
+        "Open-Mindedness": {
+            "code": "O",
+            "items": [
+                5,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                55,
+                60
+            ],
+            "reverseItems": [
+                5,
+                25,
+                30,
+                45,
+                50,
+                55
+            ],
+            "facets": {
+                "Intellectual Curiosity": {
+                    "items": [
+                        10,
+                        25,
+                        40,
+                        55
+                    ],
+                    "reverseItems": [
+                        25,
+                        55
+                    ]
+                },
+                "Aesthetic Sensitivity": {
+                    "items": [
+                        5,
+                        20,
+                        35,
+                        50
+                    ],
+                    "reverseItems": [
+                        5,
+                        50
+                    ]
+                },
+                "Creative Imagination": {
+                    "items": [
+                        15,
+                        30,
+                        45,
+                        60
+                    ],
+                    "reverseItems": [
+                        30,
+                        45
+                    ]
+                }
+            }
+        }
+    },
+    "scoring": {
+        "domainScore": {
+            "description": "Calculate the mean of all 12 items (after reverse scoring) for each domain",
+            "formula": "sum(scoredItems) / 12",
+            "range": {
+                "min": 1,
+                "max": 5
+            }
+        },
+        "facetScore": {
+            "description": "Calculate the mean of all 4 items (after reverse scoring) for each facet",
+            "formula": "sum(scoredItems) / 4",
+            "range": {
+                "min": 1,
+                "max": 5
+            }
+        }
+    },
+    "interpretation": {
+        "description": "Score interpretation guidelines",
+        "ranges": {
+            "veryLow": {
+                "min": 1.0,
+                "max": 2.0,
+                "label": "Very Low"
+            },
+            "low": {
+                "min": 2.0,
+                "max": 2.5,
+                "label": "Low"
+            },
+            "average": {
+                "min": 2.5,
+                "max": 3.5,
+                "label": "Average"
+            },
+            "high": {
+                "min": 3.5,
+                "max": 4.0,
+                "label": "High"
+            },
+            "veryHigh": {
+                "min": 4.0,
+                "max": 5.0,
+                "label": "Very High"
+            }
+        }
+    },
+    "algorithm": {
+        "steps": [
+            "1. Collect responses (1-5) for all 60 items",
+            "2. For each reverse-scored item, apply: scoredValue = 6 - rawResponse",
+            "3. For domain scores: sum all 12 items and divide by 12",
+            "4. For facet scores: sum all 4 items and divide by 4",
+            "5. Round to 2 decimal places for display"
+        ],
+        "pseudocode": {
+            "reverseScore": "function reverseScore(response, isReverse) { return isReverse ? 6 - response : response; }",
+            "calculateMean": "function calculateMean(items) { return items.reduce((a, b) => a + b, 0) / items.length; }",
+            "calculateDomain": "function calculateDomain(responses, domainConfig) { const scored = domainConfig.items.map(id => reverseScore(responses[id], domainConfig.reverseItems.includes(id))); return calculateMean(scored); }"
+        }
+    }
+}
