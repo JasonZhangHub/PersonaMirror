@@ -2,6 +2,9 @@
 .claude/
 CLAUDE.md
 
+# ignore data files
+backend/scripts/analysis/results/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
