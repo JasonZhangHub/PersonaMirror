@@ -1,0 +1,482 @@
+{
+    "title": "Big Five Inventory-2 (BFI-2)",
+    "description": "The BFI-2 is a 60-item self-report measure of personality traits based on the Big Five model.",
+    "instructions": "Here are a number of characteristics that may or may not apply to you. Please indicate the extent to which you agree or disagree with each statement.",
+    "scale": {
+        "1": "Disagree strongly",
+        "2": "Disagree a little",
+        "3": "Neutral; no opinion",
+        "4": "Agree a little",
+        "5": "Agree strongly"
+    },
+    "stem": "I am someone who...",
+    "items": [
+        {
+            "id": 1,
+            "text": "Is outgoing, sociable",
+            "domain": "E",
+            "facet": "Sociability",
+            "reverse": false
+        },
+        {
+            "id": 2,
+            "text": "Is compassionate, has a soft heart",
+            "domain": "A",
+            "facet": "Compassion",
+            "reverse": false
+        },
+        {
+            "id": 3,
+            "text": "Tends to be disorganized",
+            "domain": "C",
+            "facet": "Organization",
+            "reverse": true
+        },
+        {
+            "id": 4,
+            "text": "Is relaxed, handles stress well",
+            "domain": "N",
+            "facet": "Anxiety",
+            "reverse": true
+        },
+        {
+            "id": 5,
+            "text": "Has few artistic interests",
+            "domain": "O",
+            "facet": "Aesthetic Sensitivity",
+            "reverse": true
+        },
+        {
+            "id": 6,
+            "text": "Has an assertive personality",
+            "domain": "E",
+            "facet": "Assertiveness",
+            "reverse": false
+        },
+        {
+            "id": 7,
+            "text": "Is respectful, treats others with respect",
+            "domain": "A",
+            "facet": "Respectfulness",
+            "reverse": false
+        },
+        {
+            "id": 8,
+            "text": "Tends to be lazy",
+            "domain": "C",
+            "facet": "Productiveness",
+            "reverse": true
+        },
+        {
+            "id": 9,
+            "text": "Stays optimistic after experiencing a setback",
+            "domain": "N",
+            "facet": "Depression",
+            "reverse": true
+        },
+        {
+            "id": 10,
+            "text": "Is curious about many different things",
+            "domain": "O",
+            "facet": "Intellectual Curiosity",
+            "reverse": false
+        },
+        {
+            "id": 11,
+            "text": "Rarely feels excited or eager",
+            "domain": "E",
+            "facet": "Energy Level",
+            "reverse": true
+        },
+        {
+            "id": 12,
+            "text": "Tends to find fault with others",
+            "domain": "A",
+            "facet": "Trust",
+            "reverse": true
+        },
+        {
+            "id": 13,
+            "text": "Is dependable, steady",
+            "domain": "C",
+            "facet": "Responsibility",
+            "reverse": false
+        },
+        {
+            "id": 14,
+            "text": "Is moody, has up and down mood swings",
+            "domain": "N",
+            "facet": "Emotional Volatility",
+            "reverse": false
+        },
+        {
+            "id": 15,
+            "text": "Is inventive, finds clever ways to do things",
+            "domain": "O",
+            "facet": "Creative Imagination",
+            "reverse": false
+        },
+        {
+            "id": 16,
+            "text": "Tends to be quiet",
+            "domain": "E",
+            "facet": "Sociability",
+            "reverse": true
+        },
+        {
+            "id": 17,
+            "text": "Feels little sympathy for others",
+            "domain": "A",
+            "facet": "Compassion",
+            "reverse": true
+        },
+        {
+            "id": 18,
+            "text": "Is systematic, likes to keep things in order",
+            "domain": "C",
+            "facet": "Organization",
+            "reverse": false
+        },
+        {
+            "id": 19,
+            "text": "Can be tense",
+            "domain": "N",
+            "facet": "Anxiety",
+            "reverse": false
+        },
+        {
+            "id": 20,
+            "text": "Is fascinated by art, music, or literature",
+            "domain": "O",
+            "facet": "Aesthetic Sensitivity",
+            "reverse": false
+        },
+        {
+            "id": 21,
+            "text": "Is dominant, acts as a leader",
+            "domain": "E",
+            "facet": "Assertiveness",
+            "reverse": false
+        },
+        {
+            "id": 22,
+            "text": "Starts arguments with others",
+            "domain": "A",
+            "facet": "Respectfulness",
+            "reverse": true
+        },
+        {
+            "id": 23,
+            "text": "Has difficulty getting started on tasks",
+            "domain": "C",
+            "facet": "Productiveness",
+            "reverse": true
+        },
+        {
+            "id": 24,
+            "text": "Feels secure, comfortable with self",
+            "domain": "N",
+            "facet": "Depression",
+            "reverse": true
+        },
+        {
+            "id": 25,
+            "text": "Avoids intellectual, philosophical discussions",
+            "domain": "O",
+            "facet": "Intellectual Curiosity",
+            "reverse": true
+        },
+        {
+            "id": 26,
+            "text": "Is less active than other people",
+            "domain": "E",
+            "facet": "Energy Level",
+            "reverse": true
+        },
+        {
+            "id": 27,
+            "text": "Has a forgiving nature",
+            "domain": "A",
+            "facet": "Trust",
+            "reverse": false
+        },
+        {
+            "id": 28,
+            "text": "Can be somewhat careless",
+            "domain": "C",
+            "facet": "Responsibility",
+            "reverse": true
+        },
+        {
+            "id": 29,
+            "text": "Is emotionally stable, not easily upset",
+            "domain": "N",
+            "facet": "Emotional Volatility",
+            "reverse": true
+        },
+        {
+            "id": 30,
+            "text": "Has little creativity",
+            "domain": "O",
+            "facet": "Creative Imagination",
+            "reverse": true
+        },
+        {
+            "id": 31,
+            "text": "Is sometimes shy, introverted",
+            "domain": "E",
+            "facet": "Sociability",
+            "reverse": true
+        },
+        {
+            "id": 32,
+            "text": "Is helpful and unselfish with others",
+            "domain": "A",
+            "facet": "Compassion",
+            "reverse": false
+        },
+        {
+            "id": 33,
+            "text": "Keeps things neat and tidy",
+            "domain": "C",
+            "facet": "Organization",
+            "reverse": false
+        },
+        {
+            "id": 34,
+            "text": "Worries a lot",
+            "domain": "N",
+            "facet": "Anxiety",
+            "reverse": false
+        },
+        {
+            "id": 35,
+            "text": "Values art and beauty",
+            "domain": "O",
+            "facet": "Aesthetic Sensitivity",
+            "reverse": false
+        },
+        {
+            "id": 36,
+            "text": "Finds it hard to influence people",
+            "domain": "E",
+            "facet": "Assertiveness",
+            "reverse": true
+        },
+        {
+            "id": 37,
+            "text": "Is sometimes rude to others",
+            "domain": "A",
+            "facet": "Respectfulness",
+            "reverse": true
+        },
+        {
+            "id": 38,
+            "text": "Is efficient, gets things done",
+            "domain": "C",
+            "facet": "Productiveness",
+            "reverse": false
+        },
+        {
+            "id": 39,
+            "text": "Often feels sad",
+            "domain": "N",
+            "facet": "Depression",
+            "reverse": false
+        },
+        {
+            "id": 40,
+            "text": "Is complex, a deep thinker",
+            "domain": "O",
+            "facet": "Intellectual Curiosity",
+            "reverse": false
+        },
+        {
+            "id": 41,
+            "text": "Is full of energy",
+            "domain": "E",
+            "facet": "Energy Level",
+            "reverse": false
+        },
+        {
+            "id": 42,
+            "text": "Is suspicious of others' intentions",
+            "domain": "A",
+            "facet": "Trust",
+            "reverse": true
+        },
+        {
+            "id": 43,
+            "text": "Is reliable, can always be counted on",
+            "domain": "C",
+            "facet": "Responsibility",
+            "reverse": false
+        },
+        {
+            "id": 44,
+            "text": "Keeps their emotions under control",
+            "domain": "N",
+            "facet": "Emotional Volatility",
+            "reverse": true
+        },
+        {
+            "id": 45,
+            "text": "Has difficulty imagining things",
+            "domain": "O",
+            "facet": "Creative Imagination",
+            "reverse": true
+        },
+        {
+            "id": 46,
+            "text": "Is talkative",
+            "domain": "E",
+            "facet": "Sociability",
+            "reverse": false
+        },
+        {
+            "id": 47,
+            "text": "Can be cold and uncaring",
+            "domain": "A",
+            "facet": "Compassion",
+            "reverse": true
+        },
+        {
+            "id": 48,
+            "text": "Leaves a mess, doesn't clean up",
+            "domain": "C",
+            "facet": "Organization",
+            "reverse": true
+        },
+        {
+            "id": 49,
+            "text": "Rarely feels anxious or afraid",
+            "domain": "N",
+            "facet": "Anxiety",
+            "reverse": true
+        },
+        {
+            "id": 50,
+            "text": "Thinks poetry and plays are boring",
+            "domain": "O",
+            "facet": "Aesthetic Sensitivity",
+            "reverse": true
+        },
+        {
+            "id": 51,
+            "text": "Prefers to have others take charge",
+            "domain": "E",
+            "facet": "Assertiveness",
+            "reverse": true
+        },
+        {
+            "id": 52,
+            "text": "Is polite, courteous to others",
+            "domain": "A",
+            "facet": "Respectfulness",
+            "reverse": false
+        },
+        {
+            "id": 53,
+            "text": "Is persistent, works until the task is finished",
+            "domain": "C",
+            "facet": "Productiveness",
+            "reverse": false
+        },
+        {
+            "id": 54,
+            "text": "Tends to feel depressed, blue",
+            "domain": "N",
+            "facet": "Depression",
+            "reverse": false
+        },
+        {
+            "id": 55,
+            "text": "Has little interest in abstract ideas",
+            "domain": "O",
+            "facet": "Intellectual Curiosity",
+            "reverse": true
+        },
+        {
+            "id": 56,
+            "text": "Shows a lot of enthusiasm",
+            "domain": "E",
+            "facet": "Energy Level",
+            "reverse": false
+        },
+        {
+            "id": 57,
+            "text": "Assumes the best about people",
+            "domain": "A",
+            "facet": "Trust",
+            "reverse": false
+        },
+        {
+            "id": 58,
+            "text": "Sometimes behaves irresponsibly",
+            "domain": "C",
+            "facet": "Responsibility",
+            "reverse": true
+        },
+        {
+            "id": 59,
+            "text": "Is temperamental, gets emotional easily",
+            "domain": "N",
+            "facet": "Emotional Volatility",
+            "reverse": false
+        },
+        {
+            "id": 60,
+            "text": "Is original, comes up with new ideas",
+            "domain": "O",
+            "facet": "Creative Imagination",
+            "reverse": false
+        }
+    ],
+    "domains": {
+        "E": {
+            "name": "Extraversion",
+            "description": "Extraversion describes a person's tendency to seek stimulation in the company of others and their level of energy and positive emotions.",
+            "facets": [
+                "Sociability",
+                "Assertiveness",
+                "Energy Level"
+            ]
+        },
+        "A": {
+            "name": "Agreeableness",
+            "description": "Agreeableness reflects individual differences in concern for cooperation and social harmony.",
+            "facets": [
+                "Compassion",
+                "Respectfulness",
+                "Trust"
+            ]
+        },
+        "C": {
+            "name": "Conscientiousness",
+            "description": "Conscientiousness describes a person's tendency to be organized, dependable, and goal-directed.",
+            "facets": [
+                "Organization",
+                "Productiveness",
+                "Responsibility"
+            ]
+        },
+        "N": {
+            "name": "Neuroticism",
+            "description": "Neuroticism describes a person's tendency to experience negative emotions and psychological distress.",
+            "facets": [
+                "Anxiety",
+                "Depression",
+                "Emotional Volatility"
+            ]
+        },
+        "O": {
+            "name": "Open-Mindedness",
+            "description": "Open-Mindedness (Openness to Experience) describes a person's tendency to be intellectually curious and creative.",
+            "facets": [
+                "Intellectual Curiosity",
+                "Aesthetic Sensitivity",
+                "Creative Imagination"
+            ]
+        }
+    }
+}
