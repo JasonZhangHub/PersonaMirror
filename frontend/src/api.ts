@@ -63,6 +63,10 @@ export function getQuestions(): Promise<BFI2Questions> {
   return apiRequest<BFI2Questions>("/bfi2/questions");
 }
 
+export function getUserResponses(userId: number): Promise<BFI2Response[]> {
+  return apiRequest<BFI2Response[]>(`/bfi2/users/${userId}/responses`);
+}
+
 export function submitResponses(
   userId: number,
   responses: Record<number, number>,

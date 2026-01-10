@@ -15,9 +15,6 @@ export default function QuestionCard({ question, value, onChange, scale }: Quest
       <div className="question-card__text">
         <span className="question-card__id">#{question.id}</span>
         <p>{question.text}</p>
-        <span className="question-card__meta">
-          {question.domain} - {question.facet}
-        </span>
       </div>
       <div className="question-card__scale">
         {scaleNumbers.map((option) => {

@@ -1,12 +1,5 @@
 import { useLocation, useNavigate } from "react-router-dom";
-
-const traitMap: Record<string, string> = {
-  O: "Open-Mindedness",
-  C: "Conscientiousness",
-  E: "Extraversion",
-  A: "Agreeableness",
-  N: "Neuroticism",
-};
+import SurveySummary from "../components/SurveySummary";
 
 export default function Complete() {
   const location = useLocation();
@@ -25,24 +18,7 @@ export default function Complete() {
           recorded securely.
         </p>
 
-        {Object.keys(summary).length > 0 && (
-          <div className="summary">
-            {Object.entries(summary).map(([code, value]) => (
-              <div key={code} className="summary__row">
-                <div>
-                  <p className="summary__label">{traitMap[code] ?? code}</p>
-                  <span className="summary__value">{value.toFixed(2)}</span>
-                </div>
-                <div className="summary__bar">
-                  <div
-                    className="summary__fill"
-                    style={{ width: `${(value / 5) * 100}%` }}
-                  />
-                </div>
-              </div>
-            ))}
-          </div>
-        )}
+        <SurveySummary summary={summary} />
 
         <button
           className="secondary"

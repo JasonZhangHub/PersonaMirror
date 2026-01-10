@@ -27,10 +27,9 @@ export default function App() {
     <div className="app">
       <header className="app__header">
         <div>
-          <p className="app__eyebrow">PersonaMirror Study</p>
           <h1>Reflection Lab</h1>
           <p className="app__subtitle">
-            A three-step flow for consent and personality baseline collection.
+            Help us study how collaboration with AI teams shapes self-perceived personality.
           </p>
         </div>
         <div className="app__status">

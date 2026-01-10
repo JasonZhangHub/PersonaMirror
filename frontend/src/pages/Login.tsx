@@ -42,7 +42,7 @@ export default function Login({ onLogin }: LoginProps) {
           ? await loginUser(participantId.trim(), passcode)
           : await registerUser(participantId.trim(), passcode);
       onLogin(user);
-      navigate("/consent");
+      navigate(user.consent_signed_at ? "/survey" : "/consent");
     } catch (err) {
       setError(err instanceof Error ? err.message : "Unable to continue.");
     } finally {
@@ -85,7 +85,11 @@ export default function Login({ onLogin }: LoginProps) {
           </label>
           {error && <p className="form__error">{error}</p>}
           <button className="primary" type="submit" disabled={loading}>
-            {loading ? "Please wait..." : mode === "login" ? "Sign in" : "Create account"}
+            {loading
+              ? "Please wait..."
+              : mode === "login"
+                ? "Sign in"
+                : "Create account"}
           </button>
         </form>
         <div className="panel__footer">
