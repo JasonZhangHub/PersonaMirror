@@ -10,6 +10,10 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# node_modules
+node_modules/
+frontend/node_modules/
+
 # C extensions
 *.so
 
