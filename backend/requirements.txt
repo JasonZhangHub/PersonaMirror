@@ -1,4 +1,12 @@
-# PersonaMirror Backend Dependencies
+# Core
+python-dotenv==1.1.1
 
-openai>=1.0.0
-python-dotenv>=1.0.0
+# API Client
+openai==1.107.2
+
+# Settings Management
+pydantic==2.10.5
+pydantic-settings==2.7.1
+
+# Logging
+loguru==0.7.3
